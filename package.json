@@ -1,0 +1,30 @@
+{
+  "name": "fastify-apollo-server",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "7.1.5",
+    "apollo-server-fastify": "3.0.1",
+    "appdynamics": "21.4.0",
+    "fastify": "3.14.1",
+    "fastify-cors": "5.2.0",
+    "fastify-plugin": "3.0.0",
+    "graphql": "15.5.0"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "nodemon": "2.0.7"
+  },
+  "nodemonConfig": {
+    "watch": [
+      ".",
+      "../vocab"
+    ],
+    "ext": "js, json, gql"
+  },
+  "main": "index.js"
+}

@@ -1,0 +1,8 @@
+type Account {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  viewer: Account!
+}
